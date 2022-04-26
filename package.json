@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Deyvit",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
